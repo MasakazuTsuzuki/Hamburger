@@ -1,0 +1,36 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 65px;
+}
+
+.main_bg {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main_bg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main_bg h2 {
+  position: absolute;
+  top: 240px;
+  left: 86px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.sub_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120px;
+}
+/*# sourceMappingURL=style.css.map */
