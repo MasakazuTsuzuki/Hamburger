@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header,
 nav,
 article,
@@ -9,6 +10,7 @@ footer {
 
 article {
   width: 80%;
+  background-color: #FFFDFA;
 }
 
 aside {
@@ -210,21 +212,22 @@ aside {
   font-size: 34px;
 }
 
-.l-sidebar_contents ul {
+.l-sidebar_contents h3 {
   list-style: none;
-  padding: 45px 0;
+  padding-bottom: 45px;
   font-size: 24px;
 }
 
 .l-sidebar_contents li {
   list-style: none;
-  padding: 30px 0;
+  padding-bottom: 30px;
   font-size: 20px;
+  padding-left: 20px;
 }
 
 .l-footer {
   height: 150px;
-  background-color: #793123;
+  background-color: #917B67;
   width: 100%;
   text-align: center;
   color: #FFF;
@@ -268,16 +271,16 @@ aside {
 }
 
 /* archive */
-.archive-main_bg {
+.l-archive-main_contents_bg {
   position: relative;
 }
 
-.archive-main_bg img {
+.l-archive-main_contents_bg img {
   max-width: 100%;
   height: 239px;
 }
 
-.archive-main_bg h2 {
+.l-archive-main_contents_bg h2 {
   position: absolute;
   top: 80px;
   left: 86px;
@@ -286,19 +289,98 @@ aside {
   margin: auto;
 }
 
-.archive-main_bg span {
+.l-archive-main_contents_bg span {
   font-size: 16px;
 }
 
-.article-sub_menu_title h2 {
-  font-size: 67px;
-  top: 36px;
+.l-archive-main_contents_title {
+  display: block;
+  margin-top: 67px;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+
+.l-archive-main_contents_title h2 {
+  font-size: 36px;
+  margin-top: 67px;
   left: 100px;
 }
 
-.article-sub_menu_title p {
+.l-archive-main_contents_title p {
   font-size: 16px;
   width: 1353px;
   margin-top: 33px;
+  margin-top: 70px;
+}
+
+.l-archive-sub_menu_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+
+.l-archive-sub_menu_contents_title {
+  width: 676px;
+  background-color: #3C2B1C;
+}
+
+.l-archive-sub_menu_contents_title h2,
+.l-archive-sub_menu_contents_title h3,
+.l-archive-sub_menu_contents_title p {
+  color: #FFF;
+  font-weight: normal;
+  padding-left: 63px;
+}
+
+.l-archive-sub_menu_contents_title h2 {
+  font-size: 36px;
+  padding: 60px;
+}
+
+.l-archive-sub_menu_contents_title h3 {
+  font-size: 24px;
+  padding-bottom: 22px;
+}
+
+.l-archive-sub_menu_contents_title p {
+  font-size: 16px;
+  width: 509px;
+  padding-bottom: 60px;
+}
+
+.l-archive-sub_menu_contents_title button {
+  display: block;
+  width: 292px;
+  height: 72px;
+  border-radius: 50px;
+  background-color: #FFF;
+  color: #707070;
+  margin: auto;
+}
+
+/*ページネーション*/
+.pagenation {
+  margin: 0 0 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+.pagenation li {
+  display: inline;
+  font-size: 16px;
+  margin: 0 1px;
+  padding: 0;
+}
+
+.pagenation li span,
+.pagenation li a {
+  display: inline-block;
+  padding: 1px 8px;
+  background: #fff;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

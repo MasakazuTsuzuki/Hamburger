@@ -9,6 +9,7 @@ footer {
 
 article {
     width: 80%;
+    background-color: #FFFDFA;
 }
 
 aside {
@@ -202,23 +203,24 @@ aside {
             font-size: 34px;
         }
 
-        ul {
+        h3 {
             list-style: none;
-            padding: 45px 0;
+            padding-bottom: 45px;
             font-size: 24px;
         }
 
         li {
             list-style: none;
-            padding: 30px 0;
+            padding-bottom: 30px;
             font-size: 20px;
+            padding-left: 20px;
         }
     }
 }
 
 .l-footer {
     height: 150px;
-    background-color: rgb(121, 49, 35);
+    background-color: #917B67;
     width: 100%;
     text-align: center;
     color: #FFF;
@@ -262,7 +264,7 @@ aside {
 }
 
 /* archive */
-.archive-main_bg {
+.l-archive-main_contents_bg {
     position: relative;
 
     img {
@@ -284,11 +286,15 @@ aside {
     }
 }
 
-.article-sub_menu_title {
+.l-archive-main_contents_title {
+    display: block;
+    margin-top: 67px;
+    margin-left: 100px;
+    margin-bottom: 70px;
 
     h2 {
-        font-size: 67px;
-        top: 36px;
+        font-size: 36px;
+        margin-top: 67px;
         left: 100px;
     }
 
@@ -296,6 +302,75 @@ aside {
         font-size: 16px;
         width: 1353px;
         margin-top: 33px;
-        ;
+        margin-top: 70px;
     }
+}
+
+.l-archive-sub_menu_contents {
+    display: flex;
+    margin-left: 100px;
+    padding-bottom: 30px;
+
+    &_title {
+        width: 676px;
+        background-color: #3C2B1C;
+
+        h2,
+        h3,
+        p {
+            color: #FFF;
+            font-weight: normal;
+            padding-left: 63px;
+        }
+
+        h2 {
+            font-size: 36px;
+            padding: 60px;
+        }
+
+        h3 {
+            font-size: 24px;
+            padding-bottom: 22px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 509px;
+            padding-bottom: 60px;
+        }
+
+        button {
+            display: block;
+            width: 292px;
+            height: 72px;
+            border-radius: 50px;
+            background-color: #FFF;
+            color: #707070;
+            margin: auto;
+        }
+    }
+}
+
+/*ページネーション*/
+.pagenation {
+    margin: 0 0 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.pagenation li {
+    display: inline;
+    font-size: 16px;
+    margin: 0 1px;
+    padding: 0;
+}
+
+.pagenation li span,
+.pagenation li a {
+    display: inline-block;
+    padding: 1px 8px;
+    background: #fff;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    text-decoration: none;
 }
