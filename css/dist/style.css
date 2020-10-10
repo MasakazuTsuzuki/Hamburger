@@ -330,3 +330,67 @@ aside {
   vertical-align: middle;
   text-decoration: none;
 }
+
+/*singleページ*/
+.l-single-main_contents_bg {
+  position: relative;
+}
+.l-single-main_contents_bg img {
+  max-width: 100%;
+  height: 500px;
+}
+.l-single-main_contents_bg h2 {
+  position: absolute;
+  top: 220px;
+  left: 86px;
+  color: #ffffff;
+  font-size: 60px;
+  margin: auto;
+}
+.l-single-main_contents_bg span {
+  font-size: 16px;
+}
+.l-single-main_contents_title {
+  display: block;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+.l-single-main_contents_title h2 {
+  font-size: 36px;
+  margin-top: 67px;
+}
+.l-single-main_contents_title p {
+  font-size: 16px;
+  width: 1353px;
+  height: 71px;
+  margin-top: 64px;
+}
+.l-single-main_contents_title h3,
+.l-single-main_contents_title h4,
+.l-single-main_contents_title h5,
+.l-single-main_contents_title h6 {
+  font-size: 20px;
+  margin-bottom: 64px;
+}
+.l-single-main_contents_title .large {
+  font-size: 28px;
+  margin-top: 65px;
+  margin-bottom: 66px;
+}
+.l-single-main_contents_title blockquote {
+  position: relative;
+  width: 1353px;
+  height: 319px;
+  padding: 10px 60px 132px 50px;
+  background-color: #F5F5F5;
+}
+.l-single-main_contents_title blockquote p {
+  width: 1243px;
+  height: 138px;
+}
+.l-single-main_contents_title blockquote cite {
+  display: inline-block;
+  padding-top: 62px;
+  font-size: 16px;
+  font-style: normal;
+}
